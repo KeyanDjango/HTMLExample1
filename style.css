@@ -19,9 +19,9 @@
     border: 1px solid black;
     box-sizing: border-box;
     border-radius: 10px;
-    transition: transform 0.3s;
+    transition: transform 0.5s;
 }
 
 .parent-con1 .card-1:hover{
-    transform: scale(1.15);
+    transform: scale(1.10);
 }
