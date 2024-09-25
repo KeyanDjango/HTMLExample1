@@ -1,0 +1,27 @@
+*{
+    padding:0;
+    margin:0;
+}
+.parent-con1{
+    width: 100vw;
+    height:100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: aqua;
+}
+
+.parent-con1 .card-1{
+    background-color: white;
+    width: 200px;
+    height: 200px;
+    margin: 10px;
+    border: 1px solid black;
+    box-sizing: border-box;
+    border-radius: 10px;
+    transition: transform 0.3s;
+}
+
+.parent-con1 .card-1:hover{
+    transform: scale(1.15);
+}
